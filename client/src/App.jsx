@@ -1,5 +1,6 @@
-import Login from "./assets/components/Login/Login"
-import Nav from "./assets/components/Nav/Nav"
+import Login from "./components/Login/Login"
+import Nav from "./components/Nav/Nav"
+import Contact from "./components/Contact/Contact"
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -7,8 +8,9 @@ function App() {
   return (
     <>
     <Nav/>
-     <Login/>
-    </>
+     {/* <Login/> */}
+     <Contact/>
+         </>
   )
 }
 
