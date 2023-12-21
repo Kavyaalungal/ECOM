@@ -1,0 +1,36 @@
+
+.main {
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+   
+  }
+  
+  .box1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background: rgba(166, 173, 165, 0.5);
+    box-sizing: border-box;
+    /* box-shadow: 0 15px 25px rgba(0,0,0,.6); */
+    border-radius: 10px;
+  }
+  
+  .box1 h2 {
+    margin: 0 0 30px;
+    padding: 0;
+    color: rgb(72, 68, 68);
+    text-align: center;
+  }
+  .box1 .box2 {
+    position: relative;
+  }
+  .signup{
+    color: rgb(22, 21, 21);
+    
+   }
+  
+ 
